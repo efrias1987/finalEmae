@@ -1,0 +1,210 @@
+.boton-actualizar{
+  background-color: #43A047;
+  color: white;
+  padding: 0.5rem 0.5rem;
+
+  margin-top: 1rem;
+  text-decoration: none;
+
+  border-radius: .5rem;
+  width: 25%;
+  text-align: center;
+
+  border:none;
+
+}
+
+#check {
+  text-decoration: none;
+  color:blue;
+  
+}
+
+
+
+#check:hover {
+  color: #2a45e0;
+} 
+
+
+h1{
+  text-align: center;
+  background: rgb(42, 43, 44);
+  border-radius: 13px;
+  
+}
+
+h3{
+  font-size: 23px;
+  background-color: rgb(92, 116, 223);
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+  border-radius: 43px;
+  border-style: solid;
+}
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.alumnos {
+  background: linear-gradient(to bottom, rgb(142, 188, 214), rgb(151, 153, 238));
+  width: 97%;
+  margin: 0 auto 100px;
+  padding: 13px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.links {
+
+  background: linear-gradient(to bottom, rgb(142, 188, 214), rgb(151, 153, 238));
+  width: 79%;
+  margin:0 auto 100px;
+  padding: 37px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.alinks {
+  
+  margin-left: 37%;
+  background-color: rgb(123, 104, 230);
+  border-radius: 43px;
+  text-align: center;
+  width: 25%
+
+  
+}
+
+
+
+li{
+  display: inline-block;
+  
+}
+
+li  a{
+  display: inline-block;
+  font-size: 17px;
+  margin: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(37, 35, 35);
+ 
+}
+
+.alinks:hover,.alinks:active,.alinks:focus {
+  background: #5b59d1;
+}
+
+.general {
+  width: 100%;
+  padding: 3% 0 0;
+  margin: auto;
+  
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  width: 79%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  
+}
+
+table{
+  background: rgb(189, 215, 236);
+width: 100%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+th{
+  background-color: rgb(88, 85, 85);
+  color: white;
+  
+  
+}
+
+.textarea{
+  width: 100%;
+}
+
+tbody tr:nth-child(even){
+  background: rgb(206, 217, 238);
+  
+  
+}
+
+.desaparecido{
+  background: white;
+}
+
+caption{
+  padding: 8px;
+  background-color: rgb(109, 160, 228);
+  font-size: 23px;
+  color: white;
+  margin: 13px;
+  border-radius: 10px 10px 0 0;
+}
+
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 50%;
+  border: 0;
+  margin: 3px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #91a7e6;
+  width: 100%;
+  border: 0;
+  margin-top: 3px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #6361d4;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: -webkit-linear-gradient(right, #d9d8e7, #bfccdf);
+  background: -moz-linear-gradient(right, #c5d1e2, #c0c0da);
+  background: -o-linear-gradient(right, #cbcce6, #bbc2e0);
+  background: linear-gradient(to left, #d1d5e5, #c3cbe0);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;    
+}
+
