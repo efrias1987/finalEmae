@@ -40,7 +40,6 @@
         <th>Nombre Usuario</th>
         <th>Cantidad del Producto</th>
         <th>Nombre del Producto</th>
-        <th>Status del pedido</th>
       </tr>
      </thead>
      <tbody>
@@ -51,7 +50,6 @@
             <td><?php echo $listado['nombreUsuario'];?></td>
             <td><?php echo $listado['cantidadProducto'];?></td>
             <td><?php echo $listado['nombreProducto'];?></td>
-            <td><?php echo $listado['nombreStatus'];?></td>
         </tr>
         
       <?php endwhile;?>

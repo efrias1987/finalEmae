@@ -21,9 +21,9 @@
       include 'includes/database.php';
 
       $db = conectarDB();
-
-      $query= "SELECT u.nombreUsuario, listaproductos.idListado, listaproductos.fecha FROM usuarios, listaproductos INNER JOIN usuarios u ON u.idUsuario = listaproductos.idUsuario ORDER BY listaproductos.idListado DESC";
-
+    // Query vieja
+    //  $query= "SELECT u.nombreUsuario, listaproductos.idListado, listaproductos.fecha FROM usuarios, listaproductos INNER JOIN usuarios u ON u.idUsuario = listaproductos.idUsuario ORDER BY listaproductos.idListado DESC";
+    $query = "SELECT u.nombreUsuario, listaproductos.idListado, listaproductos.fecha, st.nombreStatus FROM usuarios, listaproductos INNER JOIN usuarios u ON u.idUsuario = listaproductos.idUsuario INNER JOIN status st ON st.idStatus = listaproductos.idStatus ORDER BY listaproductos.idListado DESC";
       $resultadoConsulta = mysqli_query($db, $query);
 
   ?>
@@ -47,6 +47,7 @@
         <th>Nombre Usuario</th>
         <th>id Listado</th>
         <th>Fecha creado</th>
+        <th>Estado de Pedido</th>
         <th>Acciones</th>
        </tr>
       </thead>
@@ -57,6 +58,7 @@
             <td><?php echo $listado['nombreUsuario'];?></td>
             <td><?php echo $listado['idListado'];?></td>
             <td><?php echo $listado['fecha'];?></td>
+            <td><?php echo $listado['nombreStatus'];?></td>
 
             <td>
                 <a href="chequearLista.php?id=<?php echo $listado['idListado'];?>" class="Agregar al Pedido" id="check">Chequear lista</a>

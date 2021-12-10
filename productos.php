@@ -66,10 +66,10 @@
           <br>
           <label >Observaciones</label>
           <textarea class= "textarea" name="observacionesPedido" id="" cols="30" rows="10" ></textarea>
-        <button type="submit">Pedir</button>
+        <button type="submit">Realizar Pedido</button>
         </form>
           <form action="listadosPorUsuario.php">
-            <button type="submit">Mostrar el pedido</button> 
+            <button type="submit">Mostrar la Lista de Pedidos</button> 
         </form>
       </div>
     </div>
